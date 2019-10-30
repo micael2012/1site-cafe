@@ -1,0 +1,63 @@
+/* RESET */
+
+body, h1,h2,h3,p, ul{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+html{
+	font-size: 16px;
+}
+
+body{
+	font-family: Georgia,serif;
+	color: #252525;
+
+}
+
+
+.menu{
+	background-color: #252525;
+	padding: 20px 0;
+}
+
+.menu-container{
+	max-width: 960px;
+	margin-left: auto;
+	margin: 0 auto;
+	/*margin-right: auto;*/	
+	border: solid 1px #FFF;
+
+}
+
+.menu-container::after, .menu-container::before{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.menu-logo{
+	display: block;
+	float: left;
+	margin-left: 10px; 
+}
+
+.menu-nav{
+	float: right;
+	margin-right: 10px;
+}
+
+.menu-nav li {
+	display: inline-block;
+}
+
+.menu-nav a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 1.5em;
+}
+
+
